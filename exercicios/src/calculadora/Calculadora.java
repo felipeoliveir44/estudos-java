@@ -13,7 +13,10 @@ public class Calculadora {
 		
 		System.out.println("Qual operacao deseja realizar? (Soma, subtração, multiplicação ou divisão) ");
 		
-        operacaoMatematica = scanner.next();
+        operacaoMatematica = scanner.next().toLowerCase();
+        
+        System.out.println(operacaoMatematica);
+        
 		 
         try {
         	System.out.println("Primeiro número: ");
